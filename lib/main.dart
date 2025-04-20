@@ -30,7 +30,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
 
     _controller = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
-      ..loadRequest(Uri.parse("https://bookmyworkers.com/login"));
+      ..loadRequest(Uri.parse("https://bookmyworkers.com/landing"));
   }
 
   @override
